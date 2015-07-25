@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Debugando a Web com o Firefox</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<script src="js/villa.js"></script>
+
+		<link rel="stylesheet" href="css/villa.min.css"/>
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body class="fira-sans blue-grey-900">
+
+	<style scoped="scoped">
+
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			font-weight: 100;
+			text-transform: none;
+		}
+
+		p {
+			font-weight: 300;
+		}
+
+		.text-transform-none {
+			text-transform: none;
+		}
+
+	</style>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+				<section>
+					<h1>Debugando a Web com o Firefox</h1>
+				</section>
+
+				<section class="text-shadow">
+					<h1 style="font-weight: 900">Mozilla</h1>
+					<p class="fragment">Thunderbird</p>
+					<p class="fragment">Firefox OS</p>
+					<p class="fragment">WoMoz</p>
+					<p class="fragment">Rust</p>
+				</section>
+
+				<section class="text-shadow">
+					<img src="img/firefox.png" alt="Firefox" width="300" height="300"/>
+					<h1 class="text-transform-none">Firefox</h1>
+				</section>
+
+				<section class="text-shadow">
+					<img src="img/firefox-developer.png" alt="Firefox" width="300" height="300"/>
+					<h1>Firefox Developer Edition</h1>
+				</section>
+
+				<section class="text-shadow">
+					<h1>Inspector</h1>
+				</section>
+
+				<section class="text-shadow">
+					<h1>Console</h1>
+				</section>
+
+				<section class="text-shadow">
+					<h1>Debugger</h1>
+				</section>
+
+				<section class="text-shadow">
+					<h1>Monitor de Rede</h1>
+				</section>
+
+				<section class="text-shadow">
+					<h1>Style Editor</h1>
+				</section>
+
+				<section class="text-shadow">
+					<h1>Responsive Design</h1>
+				</section>
+
+				<section class="text-shadow">
+					<h1>WebIDE</h1>
+				</section>
+
+				<section class="text-shadow">
+					<h1>Extras</h1>
+				</section>
+
+				<section class="text-shadow">
+					<h1>Webmaker</h1>
+					<a href="https://webmaker.org/pt-BR/goggles">X-ray Googles</a>
+				</section>
+
+				<section>
+					<h1>Obrigado a todos!</h1>
+					<p>Firefox Developer - <a href="https://www.mozilla.org/pt-BR/firefox/developer/">mozilla.org/firefox/developer</a></p>
+					<p>Mozilla Brasil - <a href="http://www.mozillabrasil.org.br/">mozillabrasil.org.br</a></p>
+					<p>Link dessa palestra - <a href="https://github.com/dudusbarros">noibe.com/talk-firefox</a></p>
+					<p>Reveal.JS - <a href="lab.hakim.se/reveal-js/">lab.hakim.se/reveal-js</a></p>
+					<p>Meu github - <a href="https://github.com/dudusbarros">github.com/dudusbarros</a></p>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

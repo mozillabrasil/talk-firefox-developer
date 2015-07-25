@@ -1,0 +1,19 @@
+-Debugando a Web com o Firefox
+-Mozilla (comunidade)
+-Firefox (img: firefox logo)
+-Firefox Developer Edition (img: firefox-developer logo)
+	-Sobre (Site Firefox)
+	-Inspector
+	-Console
+	-Debugger
+		-Stop points
+		-Rodando funções
+		-Desminificação
+		-Comentar sobre bug
+	-Network Monitor
+	-Style Editor
+	-Responsive Design
+	-WebIDE
+	-Extras
+-Webmaker X-Ray Goggles
+	-Ativando <https://webmaker.org/pt-BR/goggles>
